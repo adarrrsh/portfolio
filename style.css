@@ -8,7 +8,9 @@
     font-weight: 400;
     font-style: normal;
 }
-
+.name{
+    font-weight: 800;
+}
 .navbar {
     text-align: center;
     display: flex;
@@ -22,7 +24,24 @@
     padding: 0;
     margin: 0;
 }
+.link-delete{
+    text-decoration: none;
+    background-color: transparent;
+    background-color: transparent;
+    text-align: left;
 
+    font-size: 0.7vw;
+    color: #C5C5C5;
+    font-weight: 800;
+}
+.link{
+    text-decoration: none;
+    background-color: transparent;
+    background-color: transparent;
+    text-align: left;
+
+
+}
 .nav-item {
     margin: 2vh 2vw 2vh 2vw;
     align-items: center;
