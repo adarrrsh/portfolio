@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    background-color: black;
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.navbar {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    margin: 2vh 2vw 2vh 2vw;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.introduction{
+    text-align: center;
+}
+.avatar{
+    margin-top: 10vh;
+    border-radius:50% ;
+    height: 35vh;
+    width: 35vh;
+    object-fit: cover;
+}
+.tagline{
+    font-size: 5vh;
+    font-weight: 600;
+
+}
+.gradient{
+    background: -webkit-linear-gradient(#33ccff, #ff99cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 600;
+}
+.description{
+    color: #C5C5C5;
+}
+.get-in-touch-btn{
+    width: 9vw;
+    height: 5vh;
+    background-color: white;
+    border: none;
+    color: black;
+    border-radius: 22.4px;
+    font-weight: 600;
+    font-size: 1vw;
+    padding: 0.5vw;
+    margin: 2vw;
+}
+.resume-btn{
+    padding: 0.5vw;
+    width: 9vw;
+    height: 5vh;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 22.4px;
+    font-weight: 600;
+    font-size: 1vw;
+    margin: 2vw;
+}
+.experience{
+    text-align: center;
+}
+.title{
+    font-size: 1.5vw;
+    color: #C5C5C5;
+    font-weight: 700;
+}
+.langauges{
+    text-align: center;
+}
+.experience-logo{
+    width: 5vw;
+    height: 10vh;
+    margin: 0.5vw;
+}
+.projects{
+    text-align: center;
+}
+.title-project{
+    font-weight: 800;
+    font-size: 2.5vw;
+    background: -webkit-linear-gradient(#FF8660, #D5491D);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.row{
+    display: flex;
+    justify-content: center;
+
+}
+.card{
+    width: 30vw;
+    height: 40vh;
+    background-color: #2A2A2A;
+    margin: 2vw;
+    border-radius: 22.4px;
+}
+.logo-project{
+    width: 30vw;
+    height: 30vh;
+    object-fit: fit;
+    border-radius: 22.4px 22.4px 0 0;
+}
+.project-link{
+    background-color: transparent;
+    text-align: left;
+    margin-left:2vw ;
+    font-size: 0.7vw;
+    color: #C5C5C5;
+    font-weight: 800;
+}
+.project-name{
+    background-color: transparent;
+    text-align: left;
+    margin-left:2vw ;
+    font-size: 1.2vw;
+    margin-top: 0.1vw;
+    font-weight: 800;
+
+}
