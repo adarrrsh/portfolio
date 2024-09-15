@@ -1,159 +1,169 @@
-@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 
 * {
-    background-color: black;
-    color: white;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+  background-color: black;
+  color: white;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
-.name{
-    font-weight: 800;
+.name {
+  font-weight: 800;
 }
 .navbar {
-    text-align: center;
-    display: flex;
-    justify-content: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .nav-list {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
 }
-.link-delete{
-    text-decoration: none;
-    background-color: transparent;
-    background-color: transparent;
-    text-align: left;
-
-    font-size: 0.7vw;
-    color: #C5C5C5;
-    font-weight: 800;
+.link-delete {
+  text-decoration: none;
+  background-color: transparent;
+  background-color: transparent;
+  text-align: left;
+  margin: 0;
+  font-size: 0.5rem;
+  color: #c5c5c5;
+  font-weight: 800;
 }
-.link{
-    text-decoration: none;
-    background-color: transparent;
-    background-color: transparent;
-    text-align: left;
-
-
+.link {
+  padding: 1rem;
+  text-decoration: none;
+  background-color: transparent;
+  background-color: transparent;
+  text-align: left;
 }
 .nav-item {
-    margin: 2vh 2vw 2vh 2vw;
-    align-items: center;
-    cursor: pointer;
+  margin: 2vh 2vw 2vh 2vw;
+  align-items: center;
+  cursor: pointer;
 }
 
+.introduction {
+  text-align: center;
+}
+.avatar {
+  margin-top: 10vh;
+  border-radius: 50%;
+  height: 35vh;
+  width: 35vh;
+  object-fit: cover;
+}
+.tagline {
+  font-size: 5vh;
+  font-weight: 600;
+}
+.gradient {
+  background: -webkit-linear-gradient(#33ccff, #ff99cc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+.description {
+  color: #c5c5c5;
+}
+.get-in-touch-btn {
+  padding: 12px;
+  height: 5vh;
+  background-color: white;
+  border: none;
+  color: black;
+  border-radius: 22.4px;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.5vw;
+  margin: 2vw;
+}
+.resume-btn {
+  padding: 0.5vw;
 
-.introduction{
-    text-align: center;
+  height: 5vh;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 22.4px;
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 2vw;
 }
-.avatar{
-    margin-top: 10vh;
-    border-radius:50% ;
-    height: 35vh;
-    width: 35vh;
-    object-fit: cover;
+.experience {
+  text-align: center;
 }
-.tagline{
-    font-size: 5vh;
-    font-weight: 600;
-
+.title {
+  font-size: 1rem;
+  color: #c5c5c5;
+  font-weight: 700;
 }
-.gradient{
-    background: -webkit-linear-gradient(#33ccff, #ff99cc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 600;
+.langauges {
+  text-align: center;
 }
-.description{
-    color: #C5C5C5;
+.experience-logo {
+  width: 5vw;
+  height: 10vh;
+  margin: 0.5vw;
 }
-.get-in-touch-btn{
-    width: 9vw;
-    height: 5vh;
-    background-color: white;
-    border: none;
-    color: black;
-    border-radius: 22.4px;
-    font-weight: 600;
-    font-size: 1vw;
-    padding: 0.5vw;
-    margin: 2vw;
+.projects {
+  text-align: center;
 }
-.resume-btn{
-    padding: 0.5vw;
-    width: 9vw;
-    height: 5vh;
-    background-color: transparent;
-    border: 2px solid white;
-    border-radius: 22.4px;
-    font-weight: 600;
-    font-size: 1vw;
-    margin: 2vw;
+.title-project {
+  font-weight: 800;
+  font-size: 1.2rem;
+  background: -webkit-linear-gradient(#ff8660, #d5491d);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
-.experience{
-    text-align: center;
+.row {
+  display: flex;
+  justify-content: center;
 }
-.title{
-    font-size: 1.5vw;
-    color: #C5C5C5;
-    font-weight: 700;
+.card {
+  width: 30vw;
+  height: 40vh;
+  background-color: #2a2a2a;
+  margin: 2vw;
+  border-radius: 22.4px;
 }
-.langauges{
-    text-align: center;
+.logo-project {
+  width: 30vw;
+  height: 30vh;
+  object-fit: fit;
+  border-radius: 22.4px 22.4px 0 0;
 }
-.experience-logo{
-    width: 5vw;
-    height: 10vh;
-    margin: 0.5vw;
+.project-link {
+  background-color: transparent;
+  text-align: left;
+  margin-left: 2vw;
+  font-size: 0.7rem;
+  color: #c5c5c5;
+  font-weight: 800;
 }
-.projects{
-    text-align: center;
+.project-name {
+  background-color: transparent;
+  text-align: left;
+  margin-left: 2vw;
+  font-size: 0.5rem;
+  margin-top: 0.1vw;
+  font-weight: 800;
 }
-.title-project{
-    font-weight: 800;
+@media (min-width: 576px) {
+  .link-delete {
+    font-size: 0.8vw;
+  }
+  .title {
     font-size: 2.5vw;
-    background: -webkit-linear-gradient(#FF8660, #D5491D);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.row{
-    display: flex;
-    justify-content: center;
-
-}
-.card{
-    width: 30vw;
-    height: 40vh;
-    background-color: #2A2A2A;
-    margin: 2vw;
-    border-radius: 22.4px;
-}
-.logo-project{
-    width: 30vw;
-    height: 30vh;
-    object-fit: fit;
-    border-radius: 22.4px 22.4px 0 0;
-}
-.project-link{
-    background-color: transparent;
-    text-align: left;
-    margin-left:2vw ;
-    font-size: 0.7vw;
-    color: #C5C5C5;
-    font-weight: 800;
-}
-.project-name{
-    background-color: transparent;
-    text-align: left;
-    margin-left:2vw ;
+  }
+  .title-project {
     font-size: 1.2vw;
-    margin-top: 0.1vw;
-    font-weight: 800;
+  }
 
+  .project-name {
+    font-size: 1.2vw;
+  }
 }
